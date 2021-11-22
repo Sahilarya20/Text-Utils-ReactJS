@@ -53,10 +53,10 @@ const App = () => {
           
         <Switch>
           <Route exact path="/about">
-            <About />
+            <About mode={mode}/>
             </Route>
           <Route exact path="/">
-          <TextForm showAl={ showAlert} heading=" Enter the text to analyze " mode={mode} />
+          <TextForm showAl={ showAlert} heading=" TextUtils-Text Manipulator " mode={mode} />
           </Route>
         </Switch>
         </div>
